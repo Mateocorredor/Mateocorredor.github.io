@@ -1,0 +1,133 @@
+
+#contenidos{
+	background: bluelight;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: blue;
+
+}
+body{
+	background-image: url(../img/mario.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	color: white;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: center;
+
+}
+h3{
+	color: white;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+	
+}
+h4{
+	color: white;
+	text-align: center;
+
+	font-size: 20px;
+	text-align: left;
+	
+}
+#video, video{
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 700px;
+	height: 250px;
+
+}
+header{
+	font color:white;
+	width: 100px;
+	height: 10px;
+	background: rgba(255, 255, 255, 4,5);
+}
+nav{
+	width: 1000px;
+	height: 80px;
+	background: gray;
+	border-radius: 10px;
+
+
+}
+ul{
+	margin: auto;
+	padding-top: 1px;
+
+}
+li{
+	border-radius: 15px;
+	float: left;
+	 list-style-type: none;
+	 padding: 5px;
+	 background: gray;
+	 margin: 4px;
+	 box-shadow: 0 0 10px white inset;
+
+
+}
+
+section{
+	width: 700px;
+	background: white;
+	height: 700px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10;
+
+}
+.nav li a:hover{
+background-color: #434343;
+}
+.nav li ul{
+	display:none; 
+	position:absolute;
+	min-width: 140px;
+}
+.nav li:hover> ul{
+	display: block;
+}
+
+aside{
+	width:280;
+	background: gray;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+
+
+
+}
+footer{
+	width: 1000px;
+	height: 190px;
+	background: blue;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+.ancho-menu-home{width:900px;}
+.ancho-menu-paginas{with:970px;}
+
+.menu:link{color:white; text-decoration: none;}
+.menu:visited{color:white; text-decoration: none;}
+.menu:hover{ color:white; text-decoration: none;}
+.menu:active{ color:white; text-decoration: none;}
+
+
